@@ -1,6 +1,7 @@
 {
   "name": "vuex-analytics",
   "version": "1.0.0",
+  "homepage": "https://github.com/IrfDev/vuex-analytics/blob/master/readme.md",
   "description": "Vuex plugin for integrate your store with Google Analytics",
   "main": "./plugins/GoogleAnalytics.js",
   "scripts": {
@@ -13,6 +14,9 @@
     "google",
     "gtag"
   ],
-  "author": "IrfDev",
+  "bugs": { "url" : "https://github.com/IrfDev/vuex-analytics/issues"
+, "email" : "hello@irving.digital"
+},
+  "author": "Irving Suarez <hello@irving.digital> (https://irving.digital)",
   "license": "MIT"
 }
