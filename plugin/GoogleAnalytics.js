@@ -1,6 +1,8 @@
-export const GoogleAnalyticsPLugins = (store) => {
+export default GoogleAnalyticsPlugin = (store) => {
   store.subscribeAction((action, state) => {
-    if (typeof action.payload.analytics === 'object' &&
+    if (
+      action.payload.analytics &&
+      typeof action.payload.analytics === 'object' &&
       action.payload.analytics.action &&
       action.payload.analytics.category) {
       if (action.payload.analytics.action === 'timing_complete') {
