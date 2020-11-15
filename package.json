@@ -1,9 +1,11 @@
 {
   "name": "vuex-analytics",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "homepage": "https://github.com/IrfDev/vuex-analytics/blob/master/readme.md",
+  "repository": "IrfDev/vuex-analytics",
   "description": "Vuex plugin for integrate your store with Google Analytics",
-  "main": "./plugins/GoogleAnalytics.js",
+  "main": "./plugin/GoogleAnalytics.js",
+  "module": "./plugin/GoogleAnalytics.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
